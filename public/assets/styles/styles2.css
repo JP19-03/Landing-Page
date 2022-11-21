@@ -553,6 +553,10 @@ header nav ul a {
         margin-bottom:40px;
         flex-grow: initial;
     }
+    .opinion img {
+        width: 50%;
+        align-self: center;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -755,5 +759,11 @@ footer .redes li {
     transition: background ease-in .2s;
     background-color: #00B4D8;
     color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .probar {
+        width: 100%;
+    }
 }
 
